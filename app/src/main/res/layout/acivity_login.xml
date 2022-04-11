@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background"
     android:scrollbarThumbHorizontal="@color/teal_200">
 
     <TextView
@@ -13,33 +13,33 @@
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/input_bg"
+        android:background="@drawable/vien_bg"
         android:hint=" Email"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColorHint="#3F51B5"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="189dp" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <TextView
         android:id="@+id/inputPassword"
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/input_bg"
+        android:background="@drawable/vien_bg"
         android:hint=" ********"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColorHint="#3F51B5"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
@@ -52,10 +52,14 @@
         android:layout_height="47dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/black"
         android:text="Login"
+        app:iconTint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/inputPassword"
+        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toStartOf="@+id/inputPassword"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteY="592dp" />
 
     <TextView
         android:id="@+id/btnLogin"
@@ -65,16 +69,7 @@
         android:textColor="#171515"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="70dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="47dp"
-        android:layout_height="41dp"
-        android:background="#CDC0C0"
-        app:icon="@drawable/googleg_disabled_color_18"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="106dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
