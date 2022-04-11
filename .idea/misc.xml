@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LT DD/BTL/app/src/main/res/layout/acivity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/LT DD/BTL/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/LT DD/BTL/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/LT DD/BTL/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/LT DD/BTL/app/src/main/res/layout/activity_user.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/ADMIN/BTL/app/src/main/res/layout/acivity_login.xml" value="0.2" />
         <entry key="..\:/Users/ADMIN/BTL/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/BTL/app/src/main/res/layout/activity_main.xml" value="0.2" />
