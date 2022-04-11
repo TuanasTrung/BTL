@@ -27,20 +27,21 @@
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="110dp"
-                android:text="Done"
+                android:layout_marginLeft="60dp"
+                android:backgroundTint="#E8E8E8"
+                android:text="done"
                 android:textColor="#3399FF"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="380dp"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:background="@color/white"
@@ -75,6 +76,54 @@
 
             </LinearLayout>
         </LinearLayout>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Game Center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Đã mua"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Cập nhật ứng dụng"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Đăng xuất"
+            android:textColor="#FF3030"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </RelativeLayout>
